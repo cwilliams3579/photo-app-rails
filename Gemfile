@@ -1,8 +1,5 @@
 source 'https://rubygems.org'
-git_source(:github) do |repo_name|
-  repo_name = "
-  "https://github.com/
-end
+
 ruby '2.3.3'
 gem 'rails', '~> 5.0.1'
 gem 'puma', '~> 3.0'
@@ -29,3 +26,4 @@ group :development do
   gem 'better_errors'
   gem 'rails_layout'
 end
+gem 'rails_12factor', group: :production
